@@ -1,4 +1,6 @@
 #include"EncodeDecode.h"
+#include<stdio.h>
+#include"cJSON.h"
 
 char *encodeData(DATA *Obj)
 {

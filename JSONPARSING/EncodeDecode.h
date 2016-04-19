@@ -1,7 +1,3 @@
-#include<stdio.h>
-#include<malloc.h>
-#include"cJSON.h"
-
 typedef struct Data
 {
     int width;
@@ -9,3 +5,8 @@ typedef struct Data
     double rate;
     char *name;
 }DATA;
+
+extern char *encodeData(DATA *);
+extern void decodeData(DATA *, char *);
+
+

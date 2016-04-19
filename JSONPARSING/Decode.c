@@ -1,5 +1,7 @@
 #include"EncodeDecode.h"
 #include<string.h>
+#include<malloc.h>
+#include"cJSON.h"
 
 void decodeData(DATA *decodeObj, char *jsonEncodedString)
 {

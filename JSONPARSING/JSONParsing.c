@@ -1,7 +1,6 @@
 #include"EncodeDecode.h"
-
-extern char *encodeData(DATA *);
-extern void decodeData(DATA *, char *);
+#include<stdio.h>
+#include<malloc.h>
 
 int main()
 {
