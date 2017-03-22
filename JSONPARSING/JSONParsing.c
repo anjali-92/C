@@ -1,3 +1,4 @@
+//gcc cJSON.c jsonparsing.c -lm
 #include"EncodeDecode.h"
 #include<stdio.h>
 #include<malloc.h>
